@@ -6,15 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2019/5 | Hexo</title>
+  <title>第三篇文章 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2019/05/index.html">
+  <meta name="description" content="前言随着近期的学习，在搭建博客的时候出现了一些问题，现在对在学习过程中遇到的问题进行一次总结和复习。">
+<meta name="keywords" content="学习总结,随堂笔记">
+<meta property="og:type" content="article">
+<meta property="og:title" content="第三篇文章">
+<meta property="og:url" content="http://yoursite.com/2019/05/10/第三篇文章/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="前言随着近期的学习，在搭建博客的时候出现了一些问题，现在对在学习过程中遇到的问题进行一次总结和复习。">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-05-10T03:14:01.010Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="第三篇文章">
+<meta name="twitter:description" content="前言随着近期的学习，在搭建博客的时候出现了一些问题，现在对在学习过程中遇到的问题进行一次总结和复习。">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -150,36 +155,156 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-第三篇文章" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/05/10/第三篇文章/" class="archive-article-date">
-  	<time datetime="2019-05-10T02:15:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-10</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/05/10/第三篇文章/">第三篇文章</a>
+    <h1 class="article-title" itemprop="name">
+      第三篇文章
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2019/05/10/第三篇文章/" class="archive-article-date">
+  	<time datetime="2019-05-10T02:15:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-10</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>随着近期的学习，在搭建博客的时候出现了一些问题，现在对在学习过程中遇到的问题进行一次总结和复习。</p>
+<a id="more"></a>
+<h4 id="1：安装hexo过程中遇到的问题"><a href="#1：安装hexo过程中遇到的问题" class="headerlink" title="1：安装hexo过程中遇到的问题"></a>1：安装hexo过程中遇到的问题</h4><p>   在安装hexo过程中，由于刚开始不了解hexo命令的语法，经常忘记语法规范。需要牢记的几个 指令有：</p>
+<ol>
+<li><p>hexo g (generate) 生成静态文件，会在当前目录生成叫做public的文件夹</p>
+</li>
+<li><p>hexo s (serve) 启动本地web服务器，可以来预览博客 。</p>
+</li>
+<li><p>hexo d (deploy)把博客部署到远端，可以在其他平台打开。</p>
+</li>
+<li><p>hexo  n (new) 新建文章。</p>
+<h4 id="2-安装主题遇到的问题"><a href="#2-安装主题遇到的问题" class="headerlink" title="2: 安装主题遇到的问题"></a>2: 安装主题遇到的问题</h4><p>在安装主题的时候，要修改hexo目录下的_config.yml配置中的theme属性，</p>
+<p>更新主题过程为</p>
+<p>cd themes/</p>
+<p>git pull </p>
+<p>hexo g</p>
+<p>hexo s</p>
+<h4 id="3-把博客部署到github上，直接通过仓库地址-github-io进行访问"><a href="#3-把博客部署到github上，直接通过仓库地址-github-io进行访问" class="headerlink" title="3: 把博客部署到github上，直接通过仓库地址.github.io进行访问"></a>3: 把博客部署到github上，直接通过仓库地址.github.io进行访问</h4><p>需要更改_config.yml中的文件如下</p>
+<p>deploy：</p>
+<p>​    type：git</p>
+<p>​    repo：<a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:myhaaha/myhaaha.gothub,io,git</p>
+<p>​    branch: master</p>
+<h4 id="4-学习过程中要熟悉各种操作指令，如git指令，hexo指令，Markdown语法"><a href="#4-学习过程中要熟悉各种操作指令，如git指令，hexo指令，Markdown语法" class="headerlink" title="4: 学习过程中要熟悉各种操作指令，如git指令，hexo指令，Markdown语法"></a>4: 学习过程中要熟悉各种操作指令，如git指令，hexo指令，Markdown语法</h4><p><strong>1 git常用操作指令：</strong></p>
+<p><strong>git init</strong></p>
+<p>​     在本地新建一个repo,进入一个项目目录,执行git init,会初始化一个repo,并在当前文件夹下创建一个.git文件夹.</p>
+<p><strong>git clone</strong></p>
+<p>​     获取一个url对应的远程Git repo, 创建一个local copy.</p>
+<p>​     一般的格式是git clone [url].</p>
+<p>​     clone下来的repo会以url最后一个斜线后面的名称命名,创建一个文件夹,如果想要指定特定的名称,可以git clone [url] newname指定.</p>
+<p><strong>git status</strong></p>
+<p>​     查询repo的状态.</p>
+<p>​     git status -s: -s表示short, -s的输出标记会有两列,第一列是对staging区域而言,第二列是对working目录而言.</p>
+<p><strong>git add</strong></p>
+<p>​     在提交之前,Git有一个暂存区(staging area),可以放入新添加的文件或者加入新的改动. commit时提交的改动是上一次加入到staging area中的改动,而不是我们disk上的改动.</p>
+<p>​     git add .</p>
+<p>​     会递归地添加当前工作目录中的所有文件.</p>
+<p><strong>git commit</strong></p>
+<p>​     提交已经被add进来的改动.</p>
+<p>​     <strong><em>git commit -m</em></strong> “the commit message”</p>
+<p>​     git commit -a 会先把所有已经track的文件的改动add进来,然后提交(有点像svn的一次提交,不用先暂存). 对于没有track的文件,还是需要git add一下.</p>
+<p>​     git commit –amend 增补提交. 会使用与当前提交节点相同的父节点进行一次新的提交,旧的提交将会被取消.</p>
+<p><strong>git revert</strong></p>
+<p>​     反转撤销提交.只要把出错的提交(commit)的名字(reference)作为参数传给命令就可以了.</p>
+<p>​     git revert HEAD: 撤销最近的一个提交.</p>
+<p>​     git revert会创建一个反向的新提交,可以通过参数-n来告诉Git先不要提交.</p>
+<p><strong>git rm</strong></p>
+<p>​     git rm file: 从staging区移除文件,同时也移除出工作目录.</p>
+<p>​     git rm –cached: 从staging区移除文件,但留在工作目录中.</p>
+<p>​     git rm –cached从功能上等同于git reset HEAD,清除了缓存区,但不动工作目录树.</p>
+<p><strong>git clean</strong></p>
+<p>​     git clean是从工作目录中移除没有track的文件.</p>
+<p>​     通常的参数是git clean -df:</p>
+<p>​     -d表示同时移除目录,-f表示force,因为在git的配置文件中, clean.requireForce=true,如果不加-f,clean将会拒绝执行.</p>
+<p><strong>git branch</strong></p>
+<p>​     git branch可以用来列出分支,创建分支和删除分支.</p>
+<p>​     git branch -v可以看见每一个分支的最后一次提交.</p>
+<p>​     git branch: 列出本地所有分支,当前分支会被星号标示出.</p>
+<p>​     git branch (branchname): 创建一个新的分支(当你用这种方式创建分支的时候,分支是基于你的上一次提交建立的). </p>
+<p>​     git branch -d (branchname): 删除一个分支.</p>
+<p>​     删除remote的分支:</p>
+<p>​     git push (remote-name) :(branch-name): delete a remote branch.</p>
+<p>​     这个是因为完整的命令形式是:</p>
+<p>​     git push remote-name local-branch:remote-branch</p>
+<p>​     而这里local-branch的部分为空,就意味着删除了remote-branch</p>
+<p>​     git checkout -b (branchname): 创建并切换到新的分支.</p>
+<p>​     这个命令是将git branch newbranch和git checkout newbranch合在一起的结果.</p>
+<p>​     checkout还有另一个作用:替换本地改动:</p>
+<p>​     git checkout –<filename></filename></p>
+<p>​     此命令会使用HEAD中的最新内容替换掉你的工作目录中的文件.已添加到暂存区的改动以及新文件都不会受到影响.</p>
+<p>​     注意:git checkout filename会删除该文件中所有没有暂存和提交的改动,这个操作是不可逆的.</p>
+<p><strong>git tag</strong></p>
+<p>​     tag a point in history as import.</p>
+<p>​     会在一个提交上建立永久性的书签,通常是发布一个release版本或者ship了什么东西之后加tag.</p>
+<p>​     比如: git tag v1.0</p>
+<p>​     git tag -a v1.0, -a参数会允许你添加一些信息,即make an annotated tag.</p>
+<p>​     当你运行git tag -a命令的时候,Git会打开一个编辑器让你输入tag信息.</p>
+<p>​     </p>
+<p>​     我们可以利用commit SHA来给一个过去的提交打tag:</p>
+<p>​     git tag -a v0.9 XXXX</p>
+</li>
+</ol>
+<p>   ​     push的时候是不包含tag的,如果想包含,可以在push时加上–tags参数.</p>
+<p>   ​     fetch的时候,branch HEAD可以reach的tags是自动被fetch下来的, tags that aren’t reachable from branch heads will be skipped.如果想确保所有的tags都被包含进来,需要加上–tags选项.</p>
+<p>   <strong>git pull</strong></p>
+<p>   ​     fetch from a remote repo and try to merge into the current branch.</p>
+<p>   ​     pull == fetch + merge FETCH_HEAD</p>
+<p>   ​     git pull会首先执行git fetch,然后执行git merge,把取来的分支的head merge到当前分支.这个merge操作会产生一个新的commit.    </p>
+<p>   ​     如果使用–rebase参数,它会执行git rebase来取代原来的git merge.</p>
+<p>   <strong>git push</strong></p>
+<p>   ​     push your new branches and data to a remote repository.</p>
+<p>   ​     git push [alias] [branch]</p>
+<p>   ​     将会把当前分支merge到alias上的[branch]分支.如果分支已经存在,将会更新,如果不存在,将会添加这个分支.</p>
+<p>   ​     如果有多个人向同一个remote repo push代码, Git会首先在你试图push的分支上运行git log,检查它的历史中是否能看到server上的branch现在的tip,如果本地历史中不能看到server的tip,说明本地的代码不是最新的,Git会拒绝你的push,让你先fetch,merge,之后再push,这样就保证了所有人的改动都会被考虑进来.</p>
+<h5 id="2-hexo常用指令："><a href="#2-hexo常用指令：" class="headerlink" title="2 hexo常用指令："></a>2 hexo常用指令：</h5><h2 id="hexo-init"><a href="#hexo-init" class="headerlink" title="hexo init"></a>hexo init</h2><p>   初始化站点，生成一个简单网站所需的各种文件。</p>
+<h2 id="hexo-generate-hexo-g"><a href="#hexo-generate-hexo-g" class="headerlink" title="hexo generate == hexo g"></a>hexo generate == hexo g</h2><p>   生效新增、修改、更新的文件</p>
+<h2 id="hexo-server-hexo-s"><a href="#hexo-server-hexo-s" class="headerlink" title="hexo server == hexo s"></a>hexo server == hexo s</h2><p>   启动本地网站，可在本地观察网站效果</p>
+<h2 id="hexo-s-–debug"><a href="#hexo-s-–debug" class="headerlink" title="hexo s –debug"></a>hexo s –debug</h2><p>   以调试模式启动本地网站，在此模式下，对文件的更改无需停止网站只需刷新即可看到效果，调试非常方便</p>
+<h2 id="hexo-deploy-hexo-d"><a href="#hexo-deploy-hexo-d" class="headerlink" title="hexo deploy == hexo d"></a>hexo deploy == hexo d</h2><p>   hexo的一键部署功能，执行此命令即可将网站发布到配置中的仓库地址。</p>
+<h4 id="3-Markdown常用语法："><a href="#3-Markdown常用语法：" class="headerlink" title="3 Markdown常用语法："></a>3 Markdown常用语法：</h4>   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 这是一级标题</span><br><span class="line">## 这是二级标题</span><br><span class="line">### 这是三级标题</span><br><span class="line">#### 这是四级标题</span><br><span class="line">##### 这是五级标题</span><br><span class="line">###### 这是六级标题</span><br></pre></td></tr></table></figure>
+   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">**这是加粗的文字**</span><br><span class="line">*这是倾斜的文字*`</span><br><span class="line">***这是斜体加粗的文字***</span><br><span class="line">~~这是加删除线的文字~~</span><br></pre></td></tr></table></figure>
+<p><strong>综合以上近期学习的内容，自己的不足之处还有很多，以后要牢记这些操作指令和基本语法，并加以运用，一定要用心去学习 。</strong></p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -195,126 +320,106 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/05/10/第三篇文章/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/05/10/第二个文章/" class="archive-article-date">
-  	<time datetime="2019-05-10T01:49:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-10</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2019/05/10/第二个文章/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">第二个文章</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/05/10/第二个文章/">第二个文章</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">book</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">note</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/05/10/note/" class="archive-article-date">
-  	<time datetime="2019-05-10T01:46:19.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-10</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/05/10/note/">note</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">笔记</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/05/10/hello-world/" class="archive-article-date">
-  	<time datetime="2019-05-10T01:40:34.447Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-10</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/05/10/hello-world/">Hello World</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -337,8 +442,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
